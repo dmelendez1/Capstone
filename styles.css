@@ -1,0 +1,64 @@
+
+/* logo*/
+header img {
+    margin-right: 20px;
+}
+
+/* nav bar*/
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline;
+    margin-right: 50px;
+}
+nav a  {
+    text-decoration: none;
+    color: black;
+    font-family: Lucida;
+    font-size: 16px;
+    
+}
+
+/* background & banner*/
+header {
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* dog1 image*/
+.dog1 {
+    border: 5px solid black;
+    margin: 20px;
+}
+
+/* main heading*/
+h1 {
+    font-family: lucida, sans-serif;
+    font-size: 36px;
+}
+h2{
+    font-family: lucida, sans-serif;
+    font-size: 18px;
+}
+
+/* main content*/
+.container {
+    text-align: center;
+    padding: 20px;
+}
+/* para & list*/
+p {
+    font-family: lucida, sans-serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+ul {
+    list-style-type: disc;
+    text-align: center;
+    margin-left: 30px;
+}
+    
