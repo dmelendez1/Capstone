@@ -1,16 +1,27 @@
-
+body, html {
+    margin: 0;
+    padding: 0;
+}
 /* logo*/
 header img {
     margin-right: 20px;
+    height: 120px;
+    width: 120px;
 }
 
 /* nav bar*/
 nav ul {
     list-style: none;
 }
+nav {
+    margin-left: 5px;
+    margin-right: 0;
+}
 nav ul li {
     display: inline;
-    margin-right: 50px;
+    margin-right: 5px
+    
+    
 }
 nav a  {
     text-decoration: none;
@@ -20,29 +31,46 @@ nav a  {
     
 }
 
-/* background & banner*/
+/* banner*/
 header {
-    background-color: beige;
+    background-color: #E1CDAD;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
 }
 
+/* background color*/
+body {
+    background-color: #918c86;
+    margin: 0;
+    padding: 0;
+
+}
+
 /* dog1 image*/
 .dog1 {
-    border: 5px solid black;
-    margin: 20px;
+    display: inline-block;
+    
+}
+.dog1 img {
+    display: block;
+    border: 10px solid black;
+    width: 75em;
+    height: 40em;
 }
 
 /* main heading*/
 h1 {
     font-family: lucida, sans-serif;
     font-size: 36px;
+    color: black;
 }
 h2{
     font-family: lucida, sans-serif;
     font-size: 18px;
+    color: whitesmoke;
 }
 
 /* main content*/
@@ -55,10 +83,13 @@ p {
     font-family: lucida, sans-serif;
     font-size: 14px;
     margin-bottom: 10px;
+    color: black
 }
 ul {
     list-style-type: disc;
     text-align: center;
     margin-left: 30px;
+    color: whitesmoke
+    
 }
     
