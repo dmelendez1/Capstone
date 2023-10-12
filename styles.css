@@ -21,6 +21,10 @@ body {
     font-size: 70px;
     font-family: 'DM Serif Display', serif; 
 }
+h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 70px;
+}
 
 .container h2 {
     font-size: 20px;
@@ -64,4 +68,10 @@ body {
 
 .footer a:hover {
     text-decoration: underline;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
