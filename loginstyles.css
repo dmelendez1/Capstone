@@ -19,8 +19,9 @@ body {
 .login-container {
     display: flex;
     width: 100%;
-    max-width: 1200px;
-    margin: 50px auto;
+    max-width: 1300px;
+    height: 500px;
+    margin: 100px auto;
     border: 1px solid lightgray;
 }
 
@@ -57,6 +58,7 @@ body {
     flex: 1;
     background-size: cover;
     background-repeat: no-repeat;
+    size: 100%;
 }
 
 footer {
