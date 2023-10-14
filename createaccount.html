@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="castyles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Raleway&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-gray">
+        <!-- Links -->
+        <div class="navbar-nav mr-auto">
+            <a class="nav-item nav-link" href="KibbleKitchen.html">Home</a>
+            <a class="nav-item nav-link" href="products.html">Products</a>
+            <a class="nav-item nav-link" href="#">Reviews</a>
+        </div>
+        <!-- Logo  -->
+        <a class="navbar-brand mx-auto" href="#">
+            <img src="doglogo.png" alt="Logo" style="width:120px;">
+        </a>
+        
+        <div class="navbar-nav ml-auto">
+            
+            <a href="loginpage.html" class="btn btn-primary">Login</a>
+
+            <a href="checkout.html" class="btn btn-secondary">
+                <i class="fas fa-shopping-cart"></i> Checkout
+            </a>
+            
+        </div>
+    </nav>
+
+    <h1 class="main-heading">🐾 Registration</h1>
+    <div class="container">
+        <div class="form-section">
+            
+            <form>
+                <h4>Dog's Parents Information</h4>
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" class="form-control" id="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" class="form-control" id="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="passwordConfirm">Confirm Password:</label>
+                    <input type="password" class="form-control" id="passwordConfirm" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">Address:</label>
+                    <textarea class="form-control" id="address" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label>How did you hear about us?</label><br>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="hearAbout" value="option1" required>
+                        <label class="form-check-label" for="option1">
+                            Option 1
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="hearAbout" value="option2" required>
+                        <label class="form-check-label" for="option2">
+                            Option 2
+                        </label>
+                    </div>
+                </div>
+
+                <h4>Dog's Information</h4>
+                <div class="form-group">
+                    <label for="dogName">Doggy's Name:</label>
+                    <input type="text" class="form-control" id="dogName" required>
+                </div>
+                <div class="form-group">
+                    <label>Gender:</label><br>
+                    <label><input type="radio" name="gender" value="boy" required> 🙍‍♂️</label>
+                    <label><input type="radio" name="gender" value="girl" required> 🙍‍♀️</label>
+                </div>
+                <div class="form-group">
+                    <label for="weight">Doggy's Weight (lbs):</label>
+                    <input type="number" class="form-control" id="weight" required>
+                </div>
+                <div class="form-group">
+                    <label for="dogAge">Doggy's Age:</label>
+                    <input type="text" class="form-control" id="dogage" required>
+                </div>
+                <div class="form-group">
+                    <label for="breed">Doggy's Breed:</label>
+                    <input type="text" class="form-control" id="breed" required>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Create Account</button>
+                </div>
+            </form>
+        </div>
+        <div class="image-section">
+            <div class="image-box">
+                
+                <img src="doggy1.jpg" alt="cute1">
+            </div>
+            <div class="image-box">
+               
+                <img src="doggy2.jpg" alt="cute2">
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer bg-gray mt-5 py-4">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-6 footer-links  d-flex align-items-center">
+                    
+                    <a href="#">Contact Us</a>
+                    <span class="mx-2">|</span>
+                    <a href="#">Privacy</a>
+                    <span class="mx-2">|</span>
+                    <a href="#">Returns</a>
+                
+                </div>
+                
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <img src="doglogo.png" alt="Logo" style="width:120px;">
+                </div>
+                <!--<div class="col-md-4"></div>-->
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
+
