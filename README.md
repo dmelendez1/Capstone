@@ -8,6 +8,7 @@ Kibble Kitchen is a website dedicated to providing wholesome and nutritious pet 
 - [Website Preview](#website-preview)
 - [Features](#feature)
 - [Installation](#installation)
+- [Contact](#contact)
 
 
 ## Website Preview
@@ -25,3 +26,7 @@ Kibble Kitchen is a website dedicated to providing wholesome and nutritious pet 
 
 Clone this repository to your local machine.
 Open `kibblekitchen.html` in your web browser.
+
+## Contact
+Diana Melendez
+email: melendezdiana95@gmail.com
