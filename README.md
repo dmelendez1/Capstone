@@ -8,6 +8,7 @@ Kibble Kitchen is a website dedicated to providing wholesome and nutritious pet 
 - [Website Preview](#website-preview)
 - [Features](#feature)
 - [Installation](#installation)
+- [Technology Used]
 - [Contact](#contact)
 
 
@@ -27,6 +28,12 @@ Kibble Kitchen is a website dedicated to providing wholesome and nutritious pet 
 Clone this repository to your local machine.
 Open `kibblekitchen.html` in your web browser.
 
-## Contact
-Diana Melendez
-email: melendezdiana95@gmail.com
+## Technologies Used
+- HTML - used to create elements on the DOM
+- CSS - styles html elements on page
+- Git - version control system to track changes to source code
+- GitHub - hosts repository that can be deployed to GitHub Pages
+
+## Contact Links
+[email](melendezdiana95@gmail.com)
+[GitHub](https://github.com/melzmatz)
